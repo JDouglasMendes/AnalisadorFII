@@ -1,0 +1,21 @@
+{
+  "name": "analisador-fii",
+  "version": "1.0.0",
+  "description": "programa analisador de fundo imobiliario",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon -r dotenv/config ./src/server.js"
+  },
+  "author": "Douglas Mendes",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.3.1",
+    "mongoose": "^5.8.7"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
